@@ -1,3 +1,5 @@
-const h2 = document.createElement("h2");
-h2.textContent = "This content added by JavaScript";
-document.querySelector("body").appendChild(h2);
+const image = document.getElementById("myImage");
+
+image.addEventListener("click", function() {
+  alert("Yup, that's me!");
+});
