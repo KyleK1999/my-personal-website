@@ -1,5 +1,5 @@
 body {
-    background: lightgrey;
+    background: darkgrey;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -27,3 +27,8 @@ body {
   h3 {
     margin-top: 1px;
   }
+  
+  a {
+    text-decoration: none; 
+  }
+  
