@@ -1,34 +1,57 @@
-body {
-    background: darkgrey;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    padding: 20px;
-  }
-  
-  h1 {
-    text-align: center;
-    margin-bottom: 1px;
-    font-weight: bold;
-  }
-  
-  .image-container {
-    text-align: center;
-  }
-  
-  img {
-    width: 300px;
-    height: auto;
-    margin-bottom: 10px;
-  }
-  
-  h3 {
-    margin-top: 1px;
-  }
-  
-  a {
-    text-decoration: none; 
-  }
-  
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: #f4f4f4;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background: white;
+}
+
+.top-nav a {
+  color: #333;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.profile-pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #333;
+}
+
+.intro {
+  text-align: center;
+  padding: 2rem;
+}
+
+.intro h1 {
+  margin: 0;
+  color: #333;
+}
+
+.intro h2 {
+  color: #555;
+}
+
+section {
+  padding: 2rem;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: white;
+}
